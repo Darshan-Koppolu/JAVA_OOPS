@@ -1,0 +1,17 @@
+class GrandParent{
+void g_p_expert(){System.out.println("grand parent is expert in writing literatures");}
+}
+class parent extends GrandParent{
+void P_expert(){System.out.println("parent is expert in cycling");}
+}
+class Son extends Parent{
+void s_expert(){System.out.println("son is expert in coding");}
+}
+public class MultiLevelInheritance{
+public static void main(String[] arg){
+Son s=new Son();
+s.s_expert();
+s.P_expert();
+s.g_p_expert();
+}
+} 
