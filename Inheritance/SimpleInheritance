@@ -1,0 +1,13 @@
+class Parent{
+void swim(){System.out.println("Parent can swim");}
+}
+class Child extends Parent{
+void run(){System.out.println("child can run");}
+}
+class SimpleInheritance{
+public static void main(String[] arg){
+Child c=new Child();
+c.run();
+c.swim();
+}
+}
