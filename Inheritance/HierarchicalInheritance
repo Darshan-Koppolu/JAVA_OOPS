@@ -1,0 +1,19 @@
+class Mom{
+void cook(){System.out.println("mom is expert in cooking");}
+}
+class Boy extends Mom{
+void riding(){System.out.println("Boy is expert in riding");}
+}
+class Girl extends Mom{
+void reading(){System.out.println("Girl is expert in reading");}
+}
+class HierarchicalInheritance{
+public static void main(String[] arg){
+Boy b=new Boy();
+Girl g=new Girl();
+b.riding();
+b.cook();
+g.reading();
+g.cook();
+} 
+}
