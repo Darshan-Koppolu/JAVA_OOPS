@@ -1,15 +1,14 @@
 class Adding{
 void add(int a,int b){System.out.println("addition:"+(a+b));}
 void add(int a,int b,int c){System.out.println("addition:"+(a++b+c));}
-
-
-
 }
 class Subtraction{
-
+void sub(int a,int b,int c){System.out.println("subtraction: "+(a-b));}
+void sub(int a,int b, int c)(System.out.println("subtraction: "+(a-b-c));)
 }
 class Multiplication{
-
+void mult(int a, int b){System.out.println("multiplication :"+(a*b));}
+void mult(int a, int b, int c){System.out.println("multiplication :"+(a*b*c));}
 }
 class MethodOverloading{
 public static void main(String[] arg){
