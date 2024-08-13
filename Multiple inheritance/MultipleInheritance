@@ -1,0 +1,20 @@
+interface App{
+void app_interface();
+}
+interface Datebase{
+void db_interface();
+}
+public MultipleInheritance implements App,Database{
+void app_interface(){
+System.out.println("This is appliction interface");
+}
+void db_interface(){
+System.out.println("This is data base interface");
+}
+public static void main(String[] arg){
+App a=new MultipleInterace();
+Database d=new MultipleInterface();
+a.app_interface();
+d.db_interface();
+}
+}
